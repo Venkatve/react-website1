@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Kanit&family=Lobster&family=Lora:wght@400;500;600;700&family=Montserrat:wght@300&family=Nunito+Sans:wght@400;700&family=Poppins:ital,wght@0,300;0,400;1,600;1,700&family=Roboto+Condensed:ital,wght@0,300;0,700;1,300;1,400&display=swap');
+
+.two{
+    margin-bottom: 40px;
+    margin-top: 90px !important;
+}
+.headingg{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(239, 74, 178);
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    
+}
+.headingg > span{
+    color: rgb(40, 84, 228);
+    
+}
+.left{
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 100px ;
+    width: 80%;
+}
+@media screen and (max-width:600px) {
+    .two{
+        position: absolute;
+        top: 1600px;
+    }
+    .headingg{
+        font-size: 20px;
+    }
+    .left{
+        margin-left: 5px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

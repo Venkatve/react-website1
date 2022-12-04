@@ -1,0 +1,71 @@
+.Seventh{
+    background-color: rgb(246, 250, 250);
+    width: 100%;
+    height: 110vh;
+}
+.seven-image > img{
+    width: 550px;
+    height: 600px;
+    margin-top: 90px;
+    margin-left: 90px;
+    border-radius: 15px;
+}
+
+.seven-content{
+    margin-top: 90px !important;
+    width: 450px !important;
+    height: 600px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+.seven-text{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(239, 74, 178);
+    margin-bottom: 30px;
+}
+.seven-text > span{
+    color: rgb(40, 84, 228);
+}
+.seven-form{
+    padding: 30px;
+}
+.seven-button{
+    width: 150px;
+    font-size: 20px;
+    background-color:rgb(40, 84, 228) !important ;
+}
+.form-control{
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:600px) {
+    .seven-all{
+        position: absolute;
+        top: 3350px;
+    }
+    .seven-image{
+        display: flex;
+        
+        justify-content: center;
+        width: 300px !important;
+        height: 400px;
+        
+        margin-bottom: 310px;
+    }
+    .seven-image >img{
+        width: 450px;
+        margin-left: 180px;
+    }
+    .seven-content{
+        margin-top: 90px !important;
+        width: 450px !important;
+        height: 600px;
+        margin-left: 15px;
+        background-color: aliceblue;
+        border-radius: 15px;
+    }
+}

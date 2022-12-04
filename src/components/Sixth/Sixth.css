@@ -1,0 +1,42 @@
+.sixth-content{
+    margin-bottom: 40px;
+}
+
+.logo2{
+    width: 100px;
+    height: 100px;
+    border: 10px solid rgb(232, 153, 203);
+    border-radius: 50%;
+    background-color: rgb(239, 74, 178);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.sixth{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+.text2{
+    font-size: 20px;
+    font-weight: 700;
+}
+@media screen and (max-width:600px) {
+    .sixth-content{
+        position: absolute;
+        top: 2800px;
+    }
+    .sixth{
+        margin-bottom: 10px;
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+    .text2{
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,49 @@
+
+
+.eight-heading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(239, 74, 178);
+    margin-bottom: 40px;
+}
+.eight-heading > span{
+    color: rgb(40, 84, 228);
+}
+.eight-content{
+    text-align: center;
+}
+.eight-content > p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.indicator{
+    left: 0;
+    top: 200px !important;
+    bottom: -70px;
+   
+}
+
+.indicator > button{
+    background-color: black !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
+.indicator > .active{
+    background-color:black !important;
+    width: 50px !important;
+    border-radius: 12px !important;
+    height: 10px !important;
+}
+
+@media screen and (max-width:600px) {
+    .eight-container{
+        position: absolute;
+        top: 4850px;
+    }
+    .eight-content > p{
+        font-size: 15px;
+        
+    }
+}
